@@ -5,7 +5,7 @@ Home: https://github.com/geopy/geopy
 
 Package license: MIT License
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Python Geocoding Toolbox
 
@@ -69,9 +69,15 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/geopy-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/geopy-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/geopy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/geopy-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/geopy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/geopy-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/geopy/badges/version.svg)](https://anaconda.org/conda-forge/geopy)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/geopy/badges/downloads.svg)](https://anaconda.org/conda-forge/geopy)
 
 
 Updating geopy-feedstock
