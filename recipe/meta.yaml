@@ -1,4 +1,4 @@
-{% set version = "1.11.0" %}
+{% set version = "1.12.0" %}
 
 package:
   name: geopy
@@ -7,16 +7,17 @@ package:
 source:
   fn: geopy-{{ version }}.tar.gz
   url: https://github.com/geopy/geopy/archive/{{ version }}.tar.gz
-  sha256: 4602a662855656551dec7bf86868f1557cc3435b7ff6bbb607f26a86dee5b718
+  sha256: 03ad92f8fc7b953f01fcb66d14a5b7978cbde76c75ad73cdb84a6c1fa27f5e1f
 
 build:
+  noarch: python
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
 
