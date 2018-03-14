@@ -14,9 +14,7 @@ Summary: Python Geocoding Toolbox.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/geopy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/geopy-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/geopy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/geopy-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/geopy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/geopy-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/geopy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/geopy-feedstock)
 
 Current release info
 ====================
