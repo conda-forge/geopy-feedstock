@@ -1,3 +1,4 @@
+
 {% set version = "1.13.0" %}
 
 package:
@@ -5,13 +6,12 @@ package:
   version: {{ version }}
 
 source:
-  fn: geopy-{{ version }}.tar.gz
   url: https://github.com/geopy/geopy/archive/{{ version }}.tar.gz
   sha256: e8714db6e8100a2c7a05e56aeefb53172aa67b55ee3b859e05151bda958c01f6
 
 build:
+  number: 1
   noarch: python
-  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -20,6 +20,7 @@ requirements:
     - pip
   run:
     - python
+    - geographiclib <2,>=1.49
 
 test:
   imports:
@@ -29,6 +30,7 @@ test:
 about:
   home: https://github.com/geopy/geopy
   license: MIT
+  license_file: LICENSE
   summary: 'Python Geocoding Toolbox.'
 
 extra:
