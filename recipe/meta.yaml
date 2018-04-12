@@ -1,3 +1,4 @@
+
 {% set version = "1.13.0" %}
 
 package:
@@ -5,13 +6,12 @@ package:
   version: {{ version }}
 
 source:
-  fn: geopy-{{ version }}.tar.gz
   url: https://github.com/geopy/geopy/archive/{{ version }}.tar.gz
   sha256: e8714db6e8100a2c7a05e56aeefb53172aa67b55ee3b859e05151bda958c01f6
 
 build:
-  noarch: python
   number: 0
+  noarch: python
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -24,11 +24,13 @@ requirements:
 test:
   imports:
     - geopy
+    - geopy.distance.geodesic
     - geopy.geocoders
 
 about:
   home: https://github.com/geopy/geopy
   license: MIT
+  license_file: LICENSE
   summary: 'Python Geocoding Toolbox.'
 
 extra:
