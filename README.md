@@ -14,12 +14,15 @@ Summary: Python Geocoding Toolbox.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/geopy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/geopy-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/geopy-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/geopy-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/geopy/badges/version.svg)](https://anaconda.org/conda-forge/geopy)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/geopy/badges/downloads.svg)](https://anaconda.org/conda-forge/geopy)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-geopy-green.svg)](https://anaconda.org/conda-forge/geopy) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/geopy.svg)](https://anaconda.org/conda-forge/geopy) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/geopy.svg)](https://anaconda.org/conda-forge/geopy) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/geopy.svg)](https://anaconda.org/conda-forge/geopy) |
 
 Installing geopy
 ================
