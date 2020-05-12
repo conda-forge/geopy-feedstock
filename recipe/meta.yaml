@@ -1,5 +1,4 @@
-
-{% set version = "1.21.0" %}
+{% set version = "1.22.0" %}
 
 package:
   name: geopy
@@ -7,12 +6,12 @@ package:
 
 source:
   url: https://github.com/geopy/geopy/archive/{{ version }}.tar.gz
-  sha256: 584204d4a3aaf52a216293654f11252b06d3cc713b54794de7c2265af1d7117e
+  sha256: ab5d13de571055ee70c76b602a886bad8276aa3cee5037bb1a65e01202e84fd4
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   build:
@@ -26,12 +25,17 @@ test:
   imports:
     - geopy
     - geopy.geocoders
+    - geopy.extra
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/geopy/geopy
   license: MIT
   license_file: LICENSE
-  summary: 'Python Geocoding Toolbox.'
+  summary: Python Geocoding Toolbox.
 
 extra:
   recipe-maintainers:
