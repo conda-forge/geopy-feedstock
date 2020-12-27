@@ -5,11 +5,9 @@ Home: https://github.com/geopy/geopy
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/geopy-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python Geocoding Toolbox.
-
-
 
 Current build status
 ====================
