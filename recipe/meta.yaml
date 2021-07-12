@@ -1,4 +1,4 @@
-{% set version = "2.1.0" %}
+{% set version = "2.2.0" %}
 
 package:
   name: geopy
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/geopy/geopy/archive/{{ version }}.tar.gz
-  sha256: 92faed570440f35bfcd6e84e4eef661712981d5fc992cd233f70af27d8567f7d
+  sha256: 9a2374c4b2641d31dea59a619f7c58c9ce10ac76d31ed581c694db735adb71dc
 
 build:
   number: 0
@@ -15,10 +15,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.5
     - pip
   run:
-    - python
+    - python >=3.5
     - geographiclib <2,>=1.49
 
 test:
