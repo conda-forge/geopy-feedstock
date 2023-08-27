@@ -1,4 +1,4 @@
-{% set version = "2.3.0" %}
+{% set version = "2.4.0" %}
 
 package:
   name: geopy
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/geopy/geopy/archive/{{ version }}.tar.gz
-  sha256: 51745ba5497306ce26e71b794bef6052b17eb8dcc517d27e1aa030ac93863e1a
+  sha256: 70114f800042d141b183bbaa68476377af4113ec363304b93dcda4ac23d4538e
 
 build:
   number: 0
